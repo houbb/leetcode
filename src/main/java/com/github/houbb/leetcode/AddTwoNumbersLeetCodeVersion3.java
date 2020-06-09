@@ -51,6 +51,7 @@ public class AddTwoNumbersLeetCodeVersion3 {
      * @date 2020-6-9 12:08:44
      */
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        overflowFlag = 0;
         // 直接构建结果列表
         ListNode headNode = buildListNode(l1, l2);
         ListNode currentNode = headNode;
