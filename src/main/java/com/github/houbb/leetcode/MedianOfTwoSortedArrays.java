@@ -119,13 +119,13 @@ public class MedianOfTwoSortedArrays {
         // 初始化变量
         int iMin = 0;
         int iMax = m;
-        int iHalf = (m + n + 1)/2;
+        int iHalf = (m + n + 1) >> 1;
 
         int i, j;
         int maxOfLeft, minOfRight;
 
         while (iMin <= iMax) {
-            i = (iMin+iMax)/2;
+            i = (iMin+iMax) >> 1;
             j = iHalf - i;
 
             if(i < m && B[j-1] > A[i]) {
