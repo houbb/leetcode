@@ -1,7 +1,7 @@
 package com.github.houbb.leetcode;
 
 /**
- * 最长汇文子传
+ * 最长回文子串
  * <p>
  * 限定：可假定字符串最长为 1000;
  * <p>
