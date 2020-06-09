@@ -77,6 +77,7 @@ public class TwoNumSum {
         // 初始化大小
         // 如果考虑到大小和内存的平衡，考虑到扩容。
         final int length  = nums.length;
+        //size-1 就足够了，这样避免扩容，也可以全部遍历
         Map<Integer, Integer> map = new HashMap<>(length);
         for(int i = 0; i < length; i++) {
             int num = nums[i];

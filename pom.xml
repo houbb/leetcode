@@ -10,8 +10,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.houbb</groupId>
-    <artifactId>id</artifactId>
-    <version>0.0.5-SNAPSHOT</version>
+    <artifactId>leetcode</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
 
     <properties>
         <!--============================== All Plugins START ==============================-->
