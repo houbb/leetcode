@@ -26,6 +26,22 @@ public class ZigzagConversionTest {
     @Test
     public void bufferTest() {
         ZigzagConversion conversion = new ZigzagConversion();
+        Assert.assertEquals("PAHNAPLSIIGYIR", conversion.convert2("PAYPALISHIRING", 3));
+        Assert.assertEquals("PINALSIGYAHRPI", conversion.convert2("PAYPALISHIRING", 4));
+        Assert.assertEquals("ABDC", conversion.convert2("ABCD", 3));
+    }
+
+    @Test
+    public void v3Test() {
+        ZigzagConversion conversion = new ZigzagConversion();
+        Assert.assertEquals("PAHNAPLSIIGYIR", conversion.convert3("PAYPALISHIRING", 3));
+        Assert.assertEquals("PINALSIGYAHRPI", conversion.convert3("PAYPALISHIRING", 4));
+        Assert.assertEquals("ABDC", conversion.convert3("ABCD", 3));
+    }
+
+    @Test
+    public void bestTest() {
+        ZigzagConversion conversion = new ZigzagConversion();
         Assert.assertEquals("PAHNAPLSIIGYIR", conversion.convert("PAYPALISHIRING", 3));
         Assert.assertEquals("PINALSIGYAHRPI", conversion.convert("PAYPALISHIRING", 4));
         Assert.assertEquals("ABDC", conversion.convert("ABCD", 3));

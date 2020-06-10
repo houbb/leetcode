@@ -12,8 +12,7 @@ public class ReverseIntegerTest {
     @Test
     public void reverseTest() {
         ReverseInteger reverseInteger = new ReverseInteger();
-
-        Assert.assertEquals(9646324351, reverseInteger.reverseBasic(1534236469));
+        Assert.assertEquals(321, reverseInteger.reverseBasic(123));
     }
 
 }
