@@ -50,6 +50,35 @@ public class ReverseInteger {
         return -absReverse;
     }
 
+    /**
+     * 使用栈，然后计算每一位的值。
+     * 最后逆序输出即可。
+     *
+     * Runtime: 1 ms, faster than 100.00% of Java online submissions for Reverse Integer.
+     * Memory Usage: 36.4 MB, less than 94.78% of Java online submissions for Reverse Integer.
+     * Next challenges:
+     *
+     * @param x 元素
+     * @return 结果
+     * @since v2
+     */
+    public int reverse(int x) {
+        long result = 0;
 
+        while (x != 0) {
+            // 移除最后一位
+            int pop = x % 10;
+            x = x / 10;
+
+            // 返回值
+            result = result * 10 + pop;
+        }
+
+        // 越界判断
+        if(result > Integer.MAX_VALUE || result < Integer.MIN_VALUE) {
+            return 0;
+        }
+        return (int) result;
+    }
 
 }

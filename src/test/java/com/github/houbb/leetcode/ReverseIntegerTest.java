@@ -10,9 +10,16 @@ import org.junit.Test;
 public class ReverseIntegerTest {
 
     @Test
-    public void reverseTest() {
+    public void reverseBasicTest() {
         ReverseInteger reverseInteger = new ReverseInteger();
         Assert.assertEquals(321, reverseInteger.reverseBasic(123));
+    }
+
+    @Test
+    public void reverseTest() {
+        ReverseInteger reverseInteger = new ReverseInteger();
+        Assert.assertEquals(321, reverseInteger.reverse(123));
+        Assert.assertEquals(-321, reverseInteger.reverse(-123));
     }
 
 }

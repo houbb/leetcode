@@ -8,3 +8,4 @@
 | 4 | [median-of-two-sorted-arrays](doc/04-median-of-two-sorted-arrays.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/MedianOfTwoSortedArrays.java) |  99.81 | 91.06  | 2020-6-9 20:09:57 |
 | 5 | [longest-palindromic-substring](doc/05-longest-palindromic-substring.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/LongestPalindromicSubstringManacher.java) |  96.20 | 62.76  | 2020-6-9 23:43:38 |
 | 6 | [zigzag-conversion](doc/06-zigzag-conversion.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/ZigzagConversion.java) |  99.85 | 99.38  | 2020-6-10 11:01:12 |
+| 7 | [07-reverse-integer](doc/07-reverse-integer.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/ReverseInteger.java) |  100 | 94.78  | 2020-6-10 13:00:59 |
