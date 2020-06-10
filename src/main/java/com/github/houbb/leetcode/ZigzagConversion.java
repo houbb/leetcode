@@ -194,14 +194,14 @@ public class ZigzagConversion {
      * @return 结果
      * @since v3
      */
-    public String convertWithBuffer(String s, int numRows) {
+    public String convert(String s, int numRows) {
         //fast-return
         final int length = s.length();
         if(s.length() <= 1 || numRows <= 1 || numRows >= length) {
             return s;
         }
 
-        // 这里使用 buffer 替代。三行数据
+        // 这里使用 buffer 替代。
         StringBuilder[] stringBuilderList = new StringBuilder[numRows];
         for(int i = 0; i < numRows; i++) {
             StringBuilder builder = new StringBuilder(length);
