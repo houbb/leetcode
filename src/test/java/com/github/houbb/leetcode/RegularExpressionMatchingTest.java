@@ -16,11 +16,23 @@ public class RegularExpressionMatchingTest {
     public void basicTest() {
         RegularExpressionMatching matching = new RegularExpressionMatching();
 
-        Assert.assertFalse(matching.isMatch("aa", "a"));
-        Assert.assertTrue(matching.isMatch("aa", "a*"));
-        Assert.assertTrue(matching.isMatch("ab", ".*"));
-        Assert.assertTrue(matching.isMatch("aab", "c*a*b"));
-        Assert.assertFalse(matching.isMatch("mississippi", "mis*is*p*."));
+        Assert.assertFalse(matching.isMatchJdk("aa", "a"));
+        Assert.assertTrue(matching.isMatchJdk("aa", "a*"));
+        Assert.assertTrue(matching.isMatchJdk("ab", ".*"));
+        Assert.assertTrue(matching.isMatchJdk("aab", "c*a*b"));
+        Assert.assertFalse(matching.isMatchJdk("mississippi", "mis*is*p*."));
     }
+
+    @Test
+    public void recursiveTest() {
+        RegularExpressionMatching matching = new RegularExpressionMatching();
+
+        Assert.assertFalse(matching.isMatchRecursive("aa", "a"));
+        Assert.assertTrue(matching.isMatchRecursive("aa", "a*"));
+        Assert.assertTrue(matching.isMatchRecursive("ab", ".*"));
+        Assert.assertTrue(matching.isMatchRecursive("aab", "c*a*b"));
+        Assert.assertFalse(matching.isMatchRecursive("mississippi", "mis*is*p*."));
+    }
+
 
 }
