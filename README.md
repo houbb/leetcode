@@ -9,3 +9,4 @@
 | 5 | [longest-palindromic-substring](doc/05-longest-palindromic-substring.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/LongestPalindromicSubstringManacher.java) |  96.20 | 62.76  | 2020-6-9 23:43:38 |
 | 6 | [zigzag-conversion](doc/06-zigzag-conversion.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/ZigzagConversion.java) |  99.85 | 99.38  | 2020-6-10 11:01:12 |
 | 7 | [reverse-integer](doc/07-reverse-integer.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/ReverseInteger.java) |  100 | 94.78  | 2020-6-10 13:00:59 |
+| 8 | [string-to-integer-atoi](doc/08-string-to-integer-atoi.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/StringToIntegerAtoiOptimize.java) |  81.23 |  55.25  | 2020-6-10 16:55:11 |
