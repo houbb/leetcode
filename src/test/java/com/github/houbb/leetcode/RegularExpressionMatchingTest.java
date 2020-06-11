@@ -34,5 +34,26 @@ public class RegularExpressionMatchingTest {
         Assert.assertFalse(matching.isMatchRecursive("mississippi", "mis*is*p*."));
     }
 
+    @Test
+    public void dpTest() {
+        RegularExpressionMatchingDp matching = new RegularExpressionMatchingDp();
+
+        Assert.assertFalse(matching.isMatchDp("aa", "a"));
+        Assert.assertTrue(matching.isMatchDp("aa", "a*"));
+        Assert.assertTrue(matching.isMatchDp("ab", ".*"));
+        Assert.assertTrue(matching.isMatchDp("aab", "c*a*b"));
+        Assert.assertFalse(matching.isMatchDp("mississippi", "mis*is*p*."));
+    }
+
+    @Test
+    public void finalTest() {
+        RegularExpressionMatchingDp matching = new RegularExpressionMatchingDp();
+
+        Assert.assertFalse(matching.isMatch("aa", "a"));
+        Assert.assertTrue(matching.isMatch("aa", "a*"));
+        Assert.assertTrue(matching.isMatch("ab", ".*"));
+        Assert.assertTrue(matching.isMatch("aab", "c*a*b"));
+        Assert.assertFalse(matching.isMatch("mississippi", "mis*is*p*."));
+    }
 
 }

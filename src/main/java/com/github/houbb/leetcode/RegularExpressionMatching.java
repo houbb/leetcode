@@ -30,10 +30,10 @@ public class RegularExpressionMatching {
      * <pre>
      *      if(p.len >= 2 && p[1] == '*') {
      *          // 第一位匹配 && 后续匹配
-     *          firstMatch && isMatch(s.sub(1), p);
+     *          firstMatch && isMatchDp(s.sub(1), p);
      *
      *          // * 代替出现 0 次，则忽略 pattern 前2个元素。 1*（出现0次）
-     *          isMatch(s, p.sub(2));
+     *          isMatchDp(s, p.sub(2));
      *      }
      * </pre>
      *
@@ -41,7 +41,7 @@ public class RegularExpressionMatching {
      * 2.3 其他非 * 场景，直接递归对比后面的元素。
      *
      * <pre>
-     *      firstMatch && isMatch(s.sub(1), p.sub(1))
+     *      firstMatch && isMatchDp(s.sub(1), p.sub(1))
      * </pre>
      *
      * 【效果】
@@ -91,6 +91,17 @@ public class RegularExpressionMatching {
         Pattern pattern = Pattern.compile(p);
         Matcher matcher = pattern.matcher(s);
         return matcher.matches();
+    }
+
+    /**
+     * happy java
+     * @param s 字符串
+     * @param p 模式
+     * @return 是否匹配
+     * @since v1
+     */
+    public boolean isMatchJdk2(String s, String p) {
+        return s.matches(p);
     }
 
 }
