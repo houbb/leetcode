@@ -15,3 +15,4 @@
 | 11 | [container-with-most-water](doc/011-container-with-most-water.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/PalindromeNumberOptimize.java) |  95.28 |  38.16  | 2020-6-11 17:11:50 |
 | 12 | [integer-to-roman](doc/012-integer-to-roman.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/IntegerToRomanBest.java) |  100 |  99.54  | 2020-6-11 17:11:50 |
 | 13 | [roman-to-integer](doc/013-roman-to-integer.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/RomanToInteger.java) |  100 |  95.16  | 2020-6-11 22:12:57 |
+| 14 | [longest-common-prefix](doc/014-longest-common-prefix.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/LongestCommonPrefix.java) |  100 |  51.74  | 2020-6-11 22:38:49 |
