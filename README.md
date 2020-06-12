@@ -17,3 +17,4 @@
 | 13 | [roman-to-integer](doc/013-roman-to-integer.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/RomanToInteger.java) |  100 |  95.16  | 2020-6-11 22:12:57 |
 | 14 | [longest-common-prefix](doc/014-longest-common-prefix.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/LongestCommonPrefix.java) |  100 |  51.74  | 2020-6-11 22:38:49 |
 | 15 | [3num](doc/015-3num.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/ThirdNumSortedAndTwoPointer.java) |  99.87 |  60  | 2020-6-12 15:34:15 |
+| 16 | [3sum-closest](doc/016-3sum-closest.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/ThirdSumClosestOptimize.java) |  100 |  85.21  | 2020-6-12 16:26:29 |
