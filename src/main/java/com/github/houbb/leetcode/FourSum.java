@@ -79,7 +79,6 @@ public class FourSum {
                             l++;
                         }
                         while(l < r && nums[r] == nums[r-1]) {
-                            System.out.println("r--");
                             r--;
                         }
 

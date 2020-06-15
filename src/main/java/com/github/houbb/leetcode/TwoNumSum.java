@@ -32,7 +32,7 @@ public class TwoNumSum {
      * @since 1.0.0
      * @date 2020-6-9 10:50:31
      */
-    public int[] twoSum(int[] nums, int target) {
+    public int[] twoSumBasic(int[] nums, int target) {
         for(int i = 0; i < nums.length; i++) {
             for(int j = 0; j < nums.length; j++) {
                 // 每个元素只使用一次
@@ -71,7 +71,7 @@ public class TwoNumSum {
      * @since 1.0.0
      * @date 2020-6-9 11:11:38
      */
-    public int[] twoSumWithHashMap(int[] nums, int target) {
+    public int[] twoSum(int[] nums, int target) {
         int[] result = new int[2];
 
         // 初始化大小

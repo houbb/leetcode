@@ -24,7 +24,6 @@ public class ThirdNumBasic {
         }
 
         List<List<Integer>> results = new ArrayList<>();
-
         Set<String> stringSet = new HashSet<>();
 
         for(int i = 0; i < nums.length-2; i+=3) {
@@ -32,10 +31,9 @@ public class ThirdNumBasic {
                 for(int k = j+1; k < nums.length; k++) {
                     if((nums[i] + nums[j]+nums[k]) == 0) {
                         List<Integer> list = Arrays.asList(nums[i], nums[j], nums[k]);
-                        // 是否需要排序
+                        // 排序保证结果不重复
                         Collections.sort(list);
                         String string = list.toString();
-                        // 这里有个问题，可能存在重复的数据。
                         if(stringSet.contains(string)) {
                             continue;
                         }
