@@ -31,4 +31,29 @@ public class ListNode {
         }
         return resultList;
     }
+
+    /**
+     * 构建头结点
+     * @return 结果
+     * @since 0.0.1
+     */
+    public static ListNode buildHead(int[] nums) {
+        ListNode head = new ListNode(nums[0]);
+
+        ListNode temp = head;
+        for(int i = 1; i < nums.length; i++) {
+            temp.next = new ListNode(nums[i]);
+            temp = temp.next;
+        }
+
+        return head;
+    }
+
+    public static void print(ListNode head) {
+        while (head != null) {
+            System.out.print(head.val+"->");
+            head = head.next;
+        }
+    }
+
 }
