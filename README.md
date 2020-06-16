@@ -21,3 +21,4 @@
 | 17 | [letter-combinations-of-a-phone-number](doc/017-letter-combinations-of-a-phone-number.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/LetterCombinationsOfAPhoneNumberRecursive.java) |  100 |  94.58  | 2020-6-15 11:34:35 |
 | 18 | [4sum](doc/018-4sum.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/FourSumBest.java) |  92.21 |  56.17  | 2020-6-15 14:49:57 |
 | 19 | [remove-nth-node-from-end-of-list](doc/019-remove-nth-node-from-end-of-list.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/removeNthFromEnd.java) |  100 |  30.88  | 2020-6-16 22:45:02 |
+| 20 | [valid-parentheses](doc/020-valid-parentheses.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/ValidParenthesesOptimize.java) |  100 |  95.67  | 2020-6-16 22:45:02 |
