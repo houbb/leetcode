@@ -3,6 +3,9 @@ package com.github.houbb.leetcode;
 import org.junit.Test;
 
 /**
+ *
+ * https://leetcode-cn.com/problems/generate-parentheses/solution/hui-su-suan-fa-by-liweiwei1419/
+ *
  * @author binbin.hou
  * @since 1.0.0
  */
