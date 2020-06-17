@@ -20,23 +20,42 @@ public class GenerateParenthesesTest {
 
     @Test
     public void dfsTest() {
-        GenerateParentheses generateParentheses = new GenerateParentheses();
-        System.out.println(generateParentheses.generateParenthesis(3));
+        GenerateParenthesesDfs generateParenthesesDfs = new GenerateParenthesesDfs();
+        System.out.println(generateParenthesesDfs.generateParenthesis(3));
+    }
+
+    @Test
+    public void dfsMinusTest() {
+        GenerateParenthesesDfsMinis generateParenthesesDfs = new GenerateParenthesesDfsMinis();
+        System.out.println(generateParenthesesDfs.generateParenthesis(3));
+    }
+
+    @Test
+    public void bfsTest() {
+        GenerateParenthesesBfs bfs = new GenerateParenthesesBfs();
+        System.out.println(bfs.generateParenthesis(3));
     }
 
     @Test
     public void sizeTest() {
-        GenerateParentheses generateParentheses = new GenerateParentheses();
+        GenerateParenthesesDfs generateParenthesesDfs = new GenerateParenthesesDfs();
         for(int i = 1; i < 10; i++) {
-            System.out.println(generateParentheses.generateParenthesis(i).size());
+            System.out.println(generateParenthesesDfs.generateParenthesis(i).size());
             System.out.println("--" + Math.pow(3, i));
         }
     }
 
     @Test
     public void optimizeTest() {
-        GenerateParenthesesOptimize optimize = new GenerateParenthesesOptimize();
+        GenerateParenthesesBacktrack optimize = new GenerateParenthesesBacktrack();
         System.out.println(optimize.generateParenthesis(3));
     }
+
+    @Test
+    public void dpTest() {
+        GenerateParenthesesDp dp = new GenerateParenthesesDp();
+        System.out.println(dp.generateParenthesis(3));
+    }
+
 
 }

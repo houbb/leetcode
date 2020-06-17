@@ -9,7 +9,7 @@ import java.util.List;
  * @since 1.0.0
  * @date 2020-6-17 15:09:54
  */
-public class GenerateParenthesesOptimize {
+public class GenerateParenthesesBacktrack {
 
     /**
      * 优化思路：
@@ -23,13 +23,12 @@ public class GenerateParenthesesOptimize {
      *
      * @param n 数字
      * @return 结果
-     * @since v1
      */
     public List<String> generateParenthesis(int n) {
         List<String> resultList = new ArrayList<>();
 
         StringBuilder stringBuilder = new StringBuilder(n << 1);
-        recursive(resultList, stringBuilder, 0, 0, n);
+        backtrack(resultList, stringBuilder, 0, 0, n);
 
         return resultList;
     }
@@ -41,9 +40,8 @@ public class GenerateParenthesesOptimize {
      * @param left 左括号
      * @param right 右括号
      * @param num 位数
-     * @since v1
      */
-    private void recursive(List<String> resultList,
+    private void backtrack(List<String> resultList,
                            StringBuilder stringBuilder,
                            int left,
                            int right,
@@ -55,7 +53,7 @@ public class GenerateParenthesesOptimize {
 
         //左边的括号是可以一直加的
         if(left < num) {
-            recursive(resultList, stringBuilder.append("("), left+1, right, num);
+            backtrack(resultList, stringBuilder.append("("), left+1, right, num);
 
             // 重新设置
             stringBuilder.setLength(stringBuilder.length()-1);
@@ -63,7 +61,7 @@ public class GenerateParenthesesOptimize {
 
         // ) 小于 < 的时候，可以添加
         if(right < left) {
-            recursive(resultList, stringBuilder.append(")"), left, right+1, num);
+            backtrack(resultList, stringBuilder.append(")"), left, right+1, num);
 
             stringBuilder.setLength(stringBuilder.length()-1);
         }

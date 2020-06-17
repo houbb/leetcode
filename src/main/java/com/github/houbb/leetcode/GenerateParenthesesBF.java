@@ -40,31 +40,10 @@ public class GenerateParenthesesBF {
         return resultList;
     }
 
-    private boolean isValid(final String s) {
-        int length = s.length();
-        int headIx = 0;
-
-        for(int i = 0; i < length; i++) {
-            char c = s.charAt(i);
-
-            if('(' == c) {
-                headIx++;
-            } else {
-                if(headIx == 0) {
-                    return false;
-                }
-                headIx--;
-            }
-        }
-
-        return headIx == 0;
-    }
-
     /**
      * 生成所有的可能字符串
      * @param n 个数
      * @return 结果
-     * @since v1
      */
     private List<String> generateAll(final int n) {
         List<String> resultList = new ArrayList<>();
@@ -83,6 +62,31 @@ public class GenerateParenthesesBF {
         }
 
         return resultList;
+    }
+
+    /**
+     * 是否合法
+     * @param s 字符串
+     * @return 结果
+     */
+    private boolean isValid(final String s) {
+        int length = s.length();
+        int headIx = 0;
+
+        for(int i = 0; i < length; i++) {
+            char c = s.charAt(i);
+
+            if('(' == c) {
+                headIx++;
+            } else {
+                if(headIx == 0) {
+                    return false;
+                }
+                headIx--;
+            }
+        }
+
+        return headIx == 0;
     }
 
 }
