@@ -22,3 +22,4 @@
 | 18 | [4sum](doc/018-4sum.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/FourSumBest.java) |  92.21 |  56.17  | 2020-6-15 14:49:57 |
 | 19 | [remove-nth-node-from-end-of-list](doc/019-remove-nth-node-from-end-of-list.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/removeNthFromEnd.java) |  100 |  30.88  | 2020-6-16 22:45:02 |
 | 20 | [valid-parentheses](doc/020-valid-parentheses.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/ValidParenthesesOptimize.java) |  100 |  95.67  | 2020-6-16 22:45:02 |
+| 21 | [merge-two-sorted-lists](doc/021-merge-two-sorted-lists.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/MergeTwoSortedLists2.java) |  100 |  88.76  | 2020-6-17 14:03:02 |
