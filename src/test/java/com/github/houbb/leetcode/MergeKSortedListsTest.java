@@ -28,6 +28,21 @@ public class MergeKSortedListsTest {
      * Output: 1->1->2->3->4->4
      */
     @Test
+    public void oneByOneTest() {
+        MergeKSortedListsOneByOne lists = new MergeKSortedListsOneByOne();
+
+        ListNode one = ListNode.buildHead(new int[]{1,2,4});
+        ListNode two = ListNode.buildHead(new int[]{1,3,4});
+
+        ListNode result = lists.mergeKLists(new ListNode[]{one, two});
+        ListNode.print(result);
+    }
+
+    /**
+     * Input: 1->2->4, 1->3->4
+     * Output: 1->1->2->3->4->4
+     */
+    @Test
     public void loopTest() {
         MergeTwoSortedLists2 lists = new MergeTwoSortedLists2();
 
@@ -35,6 +50,17 @@ public class MergeKSortedListsTest {
         ListNode two = ListNode.buildHead(new int[]{1,3,4});
 
         ListNode result = lists.mergeTwoLists(one, two);
+        ListNode.print(result);
+    }
+
+    @Test
+    public void divideTest() {
+        MergeKSortedListsDivideAndConquer lists = new MergeKSortedListsDivideAndConquer();
+
+        ListNode one = ListNode.buildHead(new int[]{1,2,4});
+        ListNode two = ListNode.buildHead(new int[]{1,3,4});
+
+        ListNode result = lists.mergeKLists(new ListNode[]{one, two});
         ListNode.print(result);
     }
 

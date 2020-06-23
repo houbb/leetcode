@@ -24,3 +24,4 @@
 | 20 | [valid-parentheses](doc/020-valid-parentheses.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/ValidParenthesesOptimize.java) |  100 |  95.67  | 2020-6-16 22:45:02 |
 | 21 | [merge-two-sorted-lists](doc/021-merge-two-sorted-lists.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/MergeTwoSortedLists2.java) |  100 |  88.76  | 2020-6-17 14:03:02 |
 | 22 | [generate-parentheses](doc/022-generate-parentheses.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/GenerateParenthesesOptimize.java) |  100 |  63.29  | 2020-6-17 17:25:18 |
+| 23 | [merge-k-sorted-lists](doc/023-merge-k-sorted-lists.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/MergeKSortedListsBest.java) |  100 |  35.98  | 2020-6-23 23:00:47 |
