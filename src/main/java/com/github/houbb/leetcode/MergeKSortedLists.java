@@ -28,6 +28,11 @@ public class MergeKSortedLists {
      * Runtime: 103 ms, faster than 15.12% of Java online submissions for Merge k Sorted Lists.
      * Memory Usage: 40.6 MB, less than 94.79% of Java online submissions for Merge k Sorted Lists.
      *
+     * 复杂度：
+     * 1. 数据收集 O(N)
+     * 2. 稳定排序 O(NlgN)
+     * 3. 遍历 O(N)
+     *
      * @param lists 列表
      * @return 结果
      */
