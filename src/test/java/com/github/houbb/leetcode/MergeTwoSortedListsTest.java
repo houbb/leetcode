@@ -29,7 +29,7 @@ public class MergeTwoSortedListsTest {
      */
     @Test
     public void loopTest() {
-        MergeTwoSortedLists2 lists = new MergeTwoSortedLists2();
+        MergeTwoSortedListsBest lists = new MergeTwoSortedListsBest();
 
         ListNode one = ListNode.buildHead(new int[]{1,2,4});
         ListNode two = ListNode.buildHead(new int[]{1,3,4});

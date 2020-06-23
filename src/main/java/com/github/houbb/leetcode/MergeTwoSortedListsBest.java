@@ -7,7 +7,7 @@ package com.github.houbb.leetcode;
  * @date 2020-6-17 11:26:40
  * @since v2
  */
-public class MergeTwoSortedLists2 {
+public class MergeTwoSortedListsBest {
 
     /**
      * 合并2个有序的数组
