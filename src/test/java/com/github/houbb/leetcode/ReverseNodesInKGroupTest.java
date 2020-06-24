@@ -38,7 +38,8 @@ public class ReverseNodesInKGroupTest {
         ListNode.print(result);
 
         System.out.println("---------------");
-        ListNode result2 = group.reverseKGroup(head, 2);
+        ListNode head2 = ListNode.buildHead(new int[]{1,2,3,4, 5});
+        ListNode result2 = group.reverseKGroup(head2, 2);
         ListNode.print(result2);
     }
 
