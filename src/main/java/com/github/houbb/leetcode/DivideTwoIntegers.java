@@ -36,7 +36,7 @@ public class DivideTwoIntegers {
      *
      * @since v2
      */
-    public int divide(int dividend, int divisor) {
+    public int divideLong(int dividend, int divisor) {
         if (dividend == 0) {
             return 0;
         }
@@ -44,9 +44,6 @@ public class DivideTwoIntegers {
             return Integer.MAX_VALUE;
         }
 
-        boolean negative;
-        //用异或来计算是否符号相异
-        negative = (dividend ^ divisor) < 0;
         long t = Math.abs((long) dividend);
         long d = Math.abs((long) divisor);
         int result = 0;
@@ -60,32 +57,43 @@ public class DivideTwoIntegers {
                 t -= d << i;
             }
         }
+
         //符号相异取反
-        return negative ? -result : result;
+        return (dividend ^ divisor) < 0 ? -result : result;
     }
 
 
+    public int divide(int A, int B) {
+        if (A == Integer.MAX_VALUE && B == -1) {
+            return Integer.MAX_VALUE;
+        }
+
+        int a = Math.abs(A), b = Math.abs(B), res = 0;
+        for (int x = 31; x >= 0; x--) {
+            if ((a >>> x) - b >= 0) {
+                res += 1 << x;
+                a -= b << x;
+            }
+        }
+        return (A > 0) == (B > 0) ? res : -res;
+    }
+
     /**
-     * logA-logB = log(A/B);
+     * lnA - lnB = ln(A/B);
      *
      * Math.exp(x) 求 e^x 结果
+     *
+     * 二者互为反函数。
+     *
      * @param dividend
      * @param divisor
      * @return
      */
     public int divideLogAndExp(int dividend, int divisor) {
-        if (divisor == 1) {
-            return dividend;
-        }
-        double dividendDou = (double) dividend;
-        double divisorDou = (double) divisor;
-        double logAns = Math.log(Math.abs(dividendDou)) - Math.log(Math.abs(divisorDou));
+        double logAns = Math.log(Math.abs((double) dividend)) - Math.log(Math.abs((double) divisor));
         double answer = Math.exp(logAns);
 
-        if ((dividend < 0 && divisor > 0) || (dividend > 0 && divisor < 0)) {
-            answer = -answer;
-        }
-        return (int) answer;
+        return (int) ((dividend ^ divisor) < 0 ? -answer : answer);
     }
 
 
@@ -98,8 +106,7 @@ public class DivideTwoIntegers {
 
     public static void main(String[] args) {
         DivideTwoIntegers div = new DivideTwoIntegers();
-        System.out.println(div.divideFoo(10, 3));
-        System.out.println(div.divideFoo(7, -3));
+        System.out.println(div.divideLong(100, 3));
     }
 
 }
