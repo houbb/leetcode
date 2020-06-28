@@ -63,6 +63,16 @@ public class DivideTwoIntegers {
     }
 
 
+    /**
+     * 【效果】
+     * Runtime: 1 ms, faster than 100.00% of Java online submissions for Divide Two Integers.
+     * Memory Usage: 37.1 MB, less than 23.80% of Java online submissions for Divide Two Integers.
+     *
+     *
+     * @param A
+     * @param B
+     * @return
+     */
     public int divide(int A, int B) {
         if (A == Integer.MAX_VALUE && B == -1) {
             return Integer.MAX_VALUE;
