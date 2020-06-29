@@ -30,4 +30,4 @@
 | 26 | [remove-duplicates-from-sorted-array](doc/026-remove-duplicates-from-sorted-array.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/RemoveDuplicatesFromSortedArray.java) |  100 |  59.78  | 2020-6-28 22:27:49 |
 | 27 | [remove-element](doc/027-remove-element.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/RemoveElement.java) |  100 |  42.61  | 2020-6-28 22:27:49 |
 | 28 | [implement-strstr](doc/028-implement-strstr.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/ImplementStrStr.java) |  64.82 |  45.26  | 2020-6-28 22:27:49 |
-| 29 | [implement-strstr](doc/029-divide-two-integers.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/DivideTwoIntegers.java) |  100 |  23.80  | 2020-6-28 22:27:49 |
+| 29 | [divide-two-integers](doc/029-divide-two-integers.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/DivideTwoIntegers.java) |  100 |  23.80  | 2020-6-28 22:27:49 |
