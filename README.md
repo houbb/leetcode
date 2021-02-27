@@ -35,4 +35,5 @@
 | 31 | [next-permutation](doc/031-next-permutation.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/NextPermutation.java) |  100 |  66.28  | 2021-2-26 00:19:24 | MEDIUM |
 | 33 | [search-in-rotated-sorted-array](doc/033-search-in-rotated-sorted-array.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/SearchInRotatedSortedArray2.java) |  100 |   75.97  | 2021-2-26 23:27:24 | MEDIUM |
 | 34 | [find-first-and-last-position-of-element-in-sorted-array](doc/034-find-first-and-last-position-of-element-in-sorted-array.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/FindFirstAndLastPosition.java) |  100 |   72.92  | 2021-2-27 12:26:24 | MEDIUM |
+| 36 | [valid-sudoku](doc/036-valid-sudoku.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/ValidSoduku.java) |  100 |   87.00  | 2021-2-27 12:26:24 | MEDIUM |
 
