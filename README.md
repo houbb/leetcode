@@ -2,7 +2,7 @@
 
 | 序号 | 难题 | 解决方案 | 速度% | 内存% | 时间 | 难度 |
 |:---|:---|:---|:---|:---|:---|:---|
-| 1 | [two-num-sum](doc/001-two-num-sum.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/TwoNumSum.java) |  99.93 | 69.35  | 2020-6-9 11:24:16 |
+| 1 | [two-num-sum](doc/001-two-num-sum.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/TwoNumSum.java) |  99.93 | 69.35  | 2020-6-9 11:24:16 | EASY |
 | 2 | [add-two-numbers](doc/002-add-two-numbers.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/AddTwoNumbersLeetCodeVersion3.java) |  100 | 44.45  | 2020-6-9 14:54:51 | EASY |
 | 3 | [longest-substring-without-repeating-characters](doc/003-longest-substring-without-repeating-characters.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/LongestSubstringWithoutRepeatingCharacters.java) |  99.78 | 84.35  | 2020-6-9 17:40:26 | EASY |
 | 4 | [median-of-two-sorted-arrays](doc/004-median-of-two-sorted-arrays.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/MedianOfTwoSortedArrays.java) |  99.81 | 91.06  | 2020-6-9 20:09:57 | EASY |
@@ -40,3 +40,4 @@
 | 39 | [combine-sum](doc/039-combination-sum.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/CombinationSumBest.java) |  99 |   92.84  | 2021-2-28 12:26:24 | MEDIUM |
 | 40 | [combine-sum-ii](doc/040-combination-sum-ii.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/CombinationSumIIBest.java) |  99 | 96.64  | 2021-2-28 12:26:24 | MEDIUM |
 | 43 | [multiply-strings](doc/043-multiply-strings.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/MultiplyStrings.java) |  100 | 74.17  | 2021-2-28 18:01:24 | MEDIUM |
+| 46 | [permutations](doc/046-permutations.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/Permutations.java) |  93.75 | 59.41  | 2021-2-28 18:40:24 | MEDIUM |
