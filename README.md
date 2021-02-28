@@ -39,3 +39,4 @@
 | 38 | [count-and-say](doc/038-count-and-say.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/CountAndSay.java) |  100 | 99.63  | 2021-2-27 12:26:24 | MEDIUM |
 | 39 | [combine-sum](doc/039-combination-sum.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/CombinationSumBest.java) |  99 |   92.84  | 2021-2-28 12:26:24 | MEDIUM |
 | 40 | [combine-sum-ii](doc/040-combination-sum-ii.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/CombinationSumIIBest.java) |  99 | 96.64  | 2021-2-28 12:26:24 | MEDIUM |
+| 43 | [multiply-strings](doc/043-multiply-strings.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/MultiplyStrings.java) |  100 | 74.17  | 2021-2-28 18:01:24 | MEDIUM |
