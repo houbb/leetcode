@@ -41,3 +41,4 @@
 | 40 | [combine-sum-ii](doc/040-combination-sum-ii.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/CombinationSumIIBest.java) |  99 | 96.64  | 2021-2-28 12:26:24 | MEDIUM |
 | 43 | [multiply-strings](doc/043-multiply-strings.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/MultiplyStrings.java) |  100 | 74.17  | 2021-2-28 18:01:24 | MEDIUM |
 | 46 | [permutations](doc/046-permutations.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/Permutations.java) |  93.75 | 59.41  | 2021-2-28 18:40:24 | MEDIUM |
+| 47 | [permutations-ii](doc/047-permutations-ii.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/PermutationsII.java) |  99.37 | 94.21  | 2021-2-28 19:15:24 | MEDIUM |
