@@ -44,3 +44,4 @@
 | 47 | [permutations-ii](doc/047-permutations-ii.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/PermutationsII.java) |  99.37 | 94.21  | 2021-2-28 19:15:24 | MEDIUM |
 | 48 | [rotate-image](doc/048-rotate-image.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/RotateImage.java) |  100 | 94.21  | 2021-2-28 21:15:24 | MEDIUM |
 | 49 | [group-anagrams](doc/049-group-anagrams.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/GroupAnagrams.java) |  99.74 | 42.56  | 2021-2-28 22:15:24 | MEDIUM |
+| 50 | [powerx-n](doc/050-powerxn.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/PowerxN.java) |  100 |  46.64  | 2021-2-28 23:05:24 | MEDIUM |
