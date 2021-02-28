@@ -37,4 +37,5 @@
 | 34 | [find-first-and-last-position-of-element-in-sorted-array](doc/034-find-first-and-last-position-of-element-in-sorted-array.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/FindFirstAndLastPosition.java) |  100 |   72.92  | 2021-2-27 12:26:24 | MEDIUM |
 | 36 | [valid-sudoku](doc/036-valid-sudoku.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/ValidSoduku.java) |  100 |   87.00  | 2021-2-27 12:26:24 | MEDIUM |
 | 38 | [count-and-say](doc/038-count-and-say.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/CountAndSay.java) |  100 | 99.63  | 2021-2-27 12:26:24 | MEDIUM |
-
+| 39 | [combine-sum](doc/039-combination-sum.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/CombinationSumBest.java) |  99 |   92.84  | 2021-2-28 12:26:24 | MEDIUM |
+| 40 | [combine-sum-ii](doc/040-combination-sum-ii.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/CombinationSumIIBest.java) |  99 | 96.64  | 2021-2-28 12:26:24 | MEDIUM |
