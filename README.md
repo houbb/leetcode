@@ -47,3 +47,4 @@
 | 50 | [powerx-n](doc/050-powerxn.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/PowerxN.java) |  100 |  46.64  | 2021-2-28 23:05:24 | MEDIUM |
 | 54 | [spiral-matrix](doc/054-spiral-matrix.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/SpiralMatrix.java) |  100 |   88.28  | 2021-03-01 22:05:24 | MEDIUM |
 | 55 | [jump-game](doc/055-jump-game.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/JumpGame.java) |  86.66 |   52.22  | 2021-03-01 22:58:24 | MEDIUM |
+| 56 | [merge-intervals](doc/056-merge-intervals.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/MergeIntervals.java) |  97.75 |   35.99  | 2021-03-02 21:08:24 | MEDIUM |
