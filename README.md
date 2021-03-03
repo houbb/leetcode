@@ -50,3 +50,4 @@
 | 56 | [merge-intervals](doc/056-merge-intervals.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/MergeIntervals.java) |  97.75 |   35.99  | 2021-03-02 21:08:24 | MEDIUM |
 | 57 | [insert-intervals](doc/057-insert-intervals.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/InsertIntervals.java) |  100 |   93.68  | 2021-03-02 22:08:24 | MEDIUM |
 | 59 | [spiral-matrix-ii](doc/059-spiral-matrix-ii.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/SpiralMatrixII.java) |  100 |   81.11  | 2021-03-02 22:30:24 | MEDIUM |
+| 61 | [rotate-list](doc/061-rotate-list.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/RotateListBest.java) |  100 |   87.66  | 2021-03-02 21:34:24 | MEDIUM |
