@@ -53,3 +53,7 @@
 | 61 | [rotate-list](doc/061-rotate-list.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/RotateListBest.java) |  100 |   87.66  | 2021-03-02 21:34:24 | MEDIUM |
 | 62 | [unique-paths](doc/062-unique-paths.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/UniquePaths.java) |  100 |   87.66  | 2021-03-03 21:00:24 | MEDIUM |
 | 63 | [unique-paths-ii](doc/063-unique-paths-ii.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/UniquePathsII.java) |  100 |   87.66  | 2021-03-03 21:34:24 | MEDIUM |
+| 64 | [minimum-path-sum](doc/064-minimum-path-sum.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/UniquePathsII.java) |  96 |   87.66  | 2021-03-03 21:34:24 | MEDIUM |
+| 71 | [simplify-path](doc/071-simplify-path.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/SimplifyPath.java) |  94.5 |   87.66  | 2021-03-04 21:34:24 | MEDIUM |
+| 73 | [set-matrix-zeroes](doc/073-set-matrix-zeroes.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/SetMatrixZeroes.java) |  96 |   87.66  | 2021-03-04 22:18:24 | MEDIUM |
+| 77 | [combinations](doc/077-combinations.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/Combinations.java) |  92.65 |   95.25  | 2021-03-04 23:18:24 | MEDIUM |
