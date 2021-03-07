@@ -1,4 +1,4 @@
-# leet code
+# leetcode
 
 | 序号 | 难题 | 解决方案 | 速度% | 内存% | 时间 | 难度 |
 |:---|:---|:---|:---|:---|:---|:---|
@@ -56,4 +56,6 @@
 | 64 | [minimum-path-sum](doc/064-minimum-path-sum.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/UniquePathsII.java) |  96 |   87.66  | 2021-03-03 21:34:24 | MEDIUM |
 | 71 | [simplify-path](doc/071-simplify-path.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/SimplifyPath.java) |  94.5 |   87.66  | 2021-03-04 21:34:24 | MEDIUM |
 | 73 | [set-matrix-zeroes](doc/073-set-matrix-zeroes.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/SetMatrixZeroes.java) |  96 |   87.66  | 2021-03-04 22:18:24 | MEDIUM |
+| 74 | [search-a-2d-matrix](doc/074-search-a-2d-matrix.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/SearchA2dMatrix.java) |  100 |   73.35  | 2021-03-07 13:03:24 | MEDIUM |
+| 75 | [sort-colors](doc/075-sort-colors.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/SortColors.java) |  100 |   45.23  | 2021-03-07 13:50:24 | MEDIUM |
 | 77 | [combinations](doc/077-combinations.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/Combinations.java) |  92.65 |   95.25  | 2021-03-04 23:18:24 | MEDIUM |
