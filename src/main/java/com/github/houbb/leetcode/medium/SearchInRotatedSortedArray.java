@@ -1,14 +1,7 @@
 package com.github.houbb.leetcode.medium;
 
-import com.sun.scenario.effect.impl.prism.PrImage;
-
-import java.util.Arrays;
-import java.util.Random;
-
 /**
- * 思路：有序的数组，可以直接根据二分查询，找到对应的 index
- * <p>
- * 然后随机生产一个一个平移的数字，对数组进行平移。
+ * 优化思路：直接根据 k 分割数组，因为数组的复制也是非常耗时的。
  *
  * @author binbin.hou
  * @since 1.0.0
@@ -23,53 +16,29 @@ public class SearchInRotatedSortedArray {
      * @return
      */
     public int search(int[] nums, int target) {
-//        int index = binarySearch(nums, target);
-
         // 没有旋转，或者全部旋转
         int randomK = getRandomK(nums);
         if(-1 == randomK) {
-            return binarySearch(nums, target);
+            return binarySearch(nums, target, 0, nums.length-1);
         }
 
         // 将数组拆成2个部分
-        int[] lefts = getLefts(nums, randomK);
-        int[] rights = getRights(nums, randomK);
-
-        int leftIndex = binarySearch(lefts, target);
+        // 4 5 6 7 0 1 2 => [4 5 6 7] [0 1 2]
+        // 3 1 ==> [3] [1]
+        int leftIndex = binarySearch(nums, target, 0, randomK);
         if(leftIndex != -1) {
             return leftIndex;
         }
 
         // 右边寻找
-        int rightIndex = binarySearch(rights, target);
+        int rightIndex = binarySearch(nums, target, randomK+1, nums.length-1);
         if(rightIndex != -1) {
-            // 0==>
-            return rightIndex + randomK + 1;
+            return rightIndex;
         }
 
 
         // 如果不存在
         return -1;
-    }
-
-    private int[] getLefts(int[] nums, int randomK) {
-        int size = randomK+1;
-        int result[] = new int[size];
-
-        for(int i = 0; i < size; i++) {
-            result[i] = nums[i];
-        }
-        return result;
-    }
-
-    private int[] getRights(int[] nums, int randomK) {
-        int size = nums.length-1-randomK;
-        int[] result = new int[size];
-
-        for(int i = 0; i < size; i++) {
-            result[i] = nums[i+randomK+1];
-        }
-        return result;
     }
 
     /**
@@ -93,8 +62,6 @@ public class SearchInRotatedSortedArray {
         return -1;
     }
 
-
-
     /**
      * 二分查询
      * <p>
@@ -105,9 +72,7 @@ public class SearchInRotatedSortedArray {
      * @return 结果
      * @since v33
      */
-    private static int binarySearch(int[] nums, int target) {
-        int low = 0;
-        int high = nums.length - 1;
+    private static int binarySearch(int[] nums, int target, int low, int high) {
         while (low <= high) {
             int mid = (high+low)/2;
             int midVal = nums[mid];
@@ -130,15 +95,11 @@ public class SearchInRotatedSortedArray {
 
     public static void main(String[] args) {
         // 4,5,6,7,0,1,2
-        int[] arrays = new int[]{4,5,6,7,0,1,2};
+        SearchInRotatedSortedArray search = new SearchInRotatedSortedArray();
 
-//        offsetArray(arrays, 3);
-        int[] nums = {-1, 0,1,2};
-        System.out.println(binarySearch(nums, 0));
-//        int[] nums2 = {-1,0,1,2,3};
-//        System.out.println(binarySearch(nums2, 1));
-//        int result = new SearchInRotatedSortedArray().search(arrays, 3);
-//        System.out.println(result);
+        System.out.println(search.search(new int[]{4,5,6,7,0,1,2}, 0));
+        System.out.println(search.search(new int[]{3,5,1}, 1));
+        System.out.println(search.search(new int[]{3,1}, 1));
     }
 
 

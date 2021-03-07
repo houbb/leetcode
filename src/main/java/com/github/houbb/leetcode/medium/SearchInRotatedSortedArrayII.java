@@ -6,39 +6,46 @@ package com.github.houbb.leetcode.medium;
  * @author binbin.hou
  * @since 1.0.0
  */
-public class SearchInRotatedSortedArray2 {
+public class SearchInRotatedSortedArrayII {
 
     /**
      * Input: nums = [4,5,6,7,0,1,2], target = 0
      * Output: 4
-     * @param nums
-     * @param target
-     * @return
+     *
+     * 【优化思路】
+     *
+     * 如果只是 contains，可以先判断一下数组的最大值和最小值。
+     *
+     * 如果不在，肯定不存在，
+     *
+     * 但是因爲這題的測試 case 太少，所以沒意思。
+     *
+     * @param nums 数组
+     * @param target 目标
+     * @return 是否存在
      */
-    public int search(int[] nums, int target) {
+    public boolean search(int[] nums, int target) {
         // 没有旋转，或者全部旋转
         int randomK = getRandomK(nums);
         if(-1 == randomK) {
-            return binarySearch(nums, target, 0, nums.length-1);
+            return binarySearch(nums, target, 0, nums.length-1) > -1;
         }
 
         // 将数组拆成2个部分
-        // 4 5 6 7 0 1 2 => [4 5 6 7] [0 1 2]
-        // 3 1 ==> [3] [1]
         int leftIndex = binarySearch(nums, target, 0, randomK);
         if(leftIndex != -1) {
-            return leftIndex;
+            return true;
         }
 
         // 右边寻找
         int rightIndex = binarySearch(nums, target, randomK+1, nums.length-1);
         if(rightIndex != -1) {
-            return rightIndex;
+            return true;
         }
 
 
         // 如果不存在
-        return -1;
+        return false;
     }
 
     /**
@@ -94,55 +101,8 @@ public class SearchInRotatedSortedArray2 {
     }
 
     public static void main(String[] args) {
-        // 4,5,6,7,0,1,2
-        SearchInRotatedSortedArray2 search = new SearchInRotatedSortedArray2();
-
-        System.out.println(search.search(new int[]{4,5,6,7,0,1,2}, 0));
-        System.out.println(search.search(new int[]{3,5,1}, 1));
-        System.out.println(search.search(new int[]{3,1}, 1));
-    }
-
-
-    /**
-     * 如何处理好旋转？？
-     *
-     *  [0,1,2,4,5,6,7] + 3 ==》 [4,5,6,7,0,1,2].
-     *
-     *  [nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]] (0-indexed).
-     *
-     *  两种解题方式：
-     *
-     *  （1）当前两个数组处理
-     *  （2）还原数组处理
-     *
-     * @param nums
-     * @param k
-     */
-    @Deprecated
-    private static void offsetArray(int nums[], int k) {
-        int len = nums.length;
-        if(len == 1 || k == len-1 || k == 0) {
-            return;
-        }
-
-        // 什么是旋转呢？
-        // 使用临时数组 保存前 K 个内容
-        int[] numTemp = new int[k];
-        int tempSize = 0;
-        // 首先临时保存 后面 k 个 的内容
-        for(int i = len-k; i < len; i++) {
-            numTemp[tempSize++] = nums[i];
-        }
-
-        // 从后向前平移
-        for(int i = len-k-1; i >= 0; i--) {
-            nums[i+k] = nums[i];
-        }
-
-        // 将临时的信息设置到最后面
-        for(int i = 0; i < k; i++) {
-            nums[i] = numTemp[i];
-        }
+        SearchInRotatedSortedArrayII search = new SearchInRotatedSortedArrayII();
+        System.out.println(search.search(new int[]{2,5,6,0,0,1,2}, 0));
     }
 
 
