@@ -59,3 +59,5 @@
 | 74 | [search-a-2d-matrix](doc/074-search-a-2d-matrix.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/SearchA2dMatrix.java) |  100 |   73.35  | 2021-03-07 13:03:24 | MEDIUM |
 | 75 | [sort-colors](doc/075-sort-colors.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/SortColors.java) |  100 |   45.23  | 2021-03-07 13:50:24 | MEDIUM |
 | 77 | [combinations](doc/077-combinations.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/Combinations.java) |  92.65 |   95.25  | 2021-03-04 23:18:24 | MEDIUM |
+| 78 | [subsets](doc/078-subsets.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/Subsets.java) |  100 |   95.25  | 2021-03-07 14:20:24 | MEDIUM |
+| 90 | [subsets-ii](doc/090-subsets-ii.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/SubsetsII.java) |  99.49 |   93.43  | 2021-03-07 14:27:24 | MEDIUM |
