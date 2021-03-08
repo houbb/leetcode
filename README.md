@@ -54,6 +54,7 @@
 | 62 | [unique-paths](doc/062-unique-paths.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/UniquePaths.java) |  100 |   87.66  | 2021-03-03 21:00:24 | MEDIUM |
 | 63 | [unique-paths-ii](doc/063-unique-paths-ii.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/UniquePathsII.java) |  100 |   87.66  | 2021-03-03 21:34:24 | MEDIUM |
 | 64 | [minimum-path-sum](doc/064-minimum-path-sum.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/UniquePathsII.java) |  96 |   87.66  | 2021-03-03 21:34:24 | MEDIUM |
+| 70 | [climbing-stairs](doc/070-climbing-stairs.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/ClimbStairs.java) |  100 |   91.67  | 2021-03-08 23:34:24 | EASY |
 | 71 | [simplify-path](doc/071-simplify-path.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/SimplifyPath.java) |  94.5 |   87.66  | 2021-03-04 21:34:24 | MEDIUM |
 | 73 | [set-matrix-zeroes](doc/073-set-matrix-zeroes.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/SetMatrixZeroes.java) |  96 |   87.66  | 2021-03-04 22:18:24 | MEDIUM |
 | 74 | [search-a-2d-matrix](doc/074-search-a-2d-matrix.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/SearchA2dMatrix.java) |  100 |   73.35  | 2021-03-07 13:03:24 | MEDIUM |
@@ -67,3 +68,4 @@
 | 86 | [partition-list](doc/086-partition-list.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/PartitionListBetter.java) |  100 |  89.24  | 2021-03-07 22:08:24 | MEDIUM |
 | 89 | [grey-code](doc/089-grey-code.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/GreyCode.java) |  75.5 |  89.24  | 2021-03-07 22:38:24 | MEDIUM |
 | 90 | [subsets-ii](doc/090-subsets-ii.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/SubsetsII.java) |  99.49 |   93.43  | 2021-03-07 14:27:24 | MEDIUM |
+| 91 | [decode-ways](doc/091-decode-ways.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/DecodeWays.java) |  100 |   93.43  | 2021-03-08 23:27:24 | MEDIUM |
