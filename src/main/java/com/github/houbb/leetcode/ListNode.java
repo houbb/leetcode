@@ -33,6 +33,22 @@ public class ListNode {
     }
 
     /**
+     * 获取整数的链表
+     * @return 结果
+     * @since 1.0.0
+     */
+    public List<Integer> getIntegerList(ListNode listNode) {
+        // 使用 linkedList，避免扩容
+        List<Integer> resultList = new LinkedList<>();
+        while (listNode != null) {
+            int value = listNode.val;
+            resultList.add(value);
+            listNode = listNode.next;
+        }
+        return resultList;
+    }
+
+    /**
      * 构建头结点
      * @return 结果
      * @since 0.0.1
@@ -55,6 +71,23 @@ public class ListNode {
      * @since 0.0.1
      */
     public static ListNode buildHead(List<Integer> integers) {
+        ListNode head = new ListNode(integers.get(0));
+
+        ListNode temp = head;
+        for(int i = 1; i < integers.size(); i++) {
+            temp.next = new ListNode(integers.get(i));
+            temp = temp.next;
+        }
+
+        return head;
+    }
+
+    /**
+     * 构建头结点
+     * @return 结果
+     * @since 0.0.1
+     */
+    public static ListNode reverseBuildHead(List<Integer> integers) {
         ListNode head = new ListNode(integers.get(0));
 
         ListNode temp = head;
