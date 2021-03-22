@@ -9,7 +9,7 @@ import java.util.List;
  * @author binbin.hou
  * @since 1.0.0
  */
-public class ValidBinarySearchTree {
+public class ValidateBinarySearchTree {
 
     /**
      * 递归：

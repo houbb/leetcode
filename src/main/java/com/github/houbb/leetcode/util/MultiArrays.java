@@ -17,6 +17,13 @@ public class MultiArrays {
         System.out.println("ARR-E-------------");
     }
 
+    public static void show(char[][] matrix) {
+        for(int i = 0; i < matrix.length; i++) {
+            System.out.println(Arrays.toString(matrix[i]));
+        }
+    }
+
+
     public static void show(List<int[]> matrix) {
         System.out.println("ARR-S-------------");
         for(int i = 0; i < matrix.size(); i++) {

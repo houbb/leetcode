@@ -1,5 +1,9 @@
 # leetcode
 
+leetcode 算法笔记。
+
+# 000-100
+
 | 序号 | 难题 | 解决方案 | 速度% | 内存% | 时间 | 难度 |
 |:---|:---|:---|:---|:---|:---|:---|
 | 1 | [two-num-sum](doc/001-100/001-two-num-sum.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/TwoNumSum.java) |  99.93 | 69.35  | 2020-6-9 11:24:16 | EASY |
@@ -61,7 +65,7 @@
 | 75 | [sort-colors](doc/001-100/075-sort-colors.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/SortColors.java) |  100 |   45.23  | 2021-03-07 13:50:24 | MEDIUM |
 | 77 | [combinations](doc/001-100/077-combinations.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/Combinations.java) |  92.65 |   95.25  | 2021-03-04 23:18:24 | MEDIUM |
 | 78 | [subsets](doc/001-100/078-subsets.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/Subsets.java) |  100 |   95.25  | 2021-03-07 14:20:24 | MEDIUM |
-| 79 | [word-searc](doc/001-100/079-word-search.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/WordSearch.java) |  10.76 |   95.25  | 2021-03-07 18:20:24 | MEDIUM |
+| 79 | [word-search](doc/001-100/079-word-search.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/WordSearch.java) |  10.76 |   95.25  | 2021-03-07 18:20:24 | MEDIUM |
 | 80 | [remove-duplicates-from-sorted-array-ii](doc/001-100/080-remove-duplicates-from-sorted-array-ii.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/RemoveDuplicatesFromSortedArrayII.java) |  100 |   95.25  | 2021-03-07 19:20:24 | MEDIUM |
 | 81 | [search-in-rotated-sorted-array-ii](doc/001-100/081-search-in-rotated-sorted-array-ii.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/SearchInRotatedSortedArrayII.java) |  100 |   95.25  | 2021-03-07 20:20:24 | MEDIUM |
 | 82 | [remove-duplicates-from-sorted-list-ii](doc/001-100/082-remove-duplicates-from-sorted-list-ii.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/RemoveDuplicatesFromSortedListIIBest.java) |  100 |   95.25  | 2021-03-07 21:20:24 | MEDIUM |
@@ -71,3 +75,14 @@
 | 91 | [decode-ways](doc/001-100/091-decode-ways.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/DecodeWays.java) |  100 |   93.43  | 2021-03-08 23:27:24 | MEDIUM |
 | 92 | [reverse-linked-list-ii](doc/001-100/092-reverse-linked-list-ii.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/ReverseLinkedListII.java) |  100 |   28.17  | 2021-03-09 22:27:24 | MEDIUM |
 | 93 | [restore-ip-addresses](doc/001-100/093-restore-ip-addresses.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/RestoreIpAddresses.java) |  98.71 |   95.13  | 2021-03-09 23:27:24 | MEDIUM |
+| 94 | [binary-tree-inorder-traversal](doc/001-100/094-binary-tree-inorder-traversal.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/BinaryTreeInorderTraversal.java) |  100 |   88.15  | 2021-03-10 23:27:24 | MEDIUM |
+| 95 | [unique-binary-search-trees-ii](doc/001-100/095-unique-binary-search-trees-ii.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/UniqueBinarySearchTreesII.java) |  93.81 |   88.47  | 2021-03-10 23:27:24 | MEDIUM |
+| 96 | [unique-binary-search-trees](doc/001-100/096-unique-binary-search-trees.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/UniqueBinarySearchTrees.java) |  100 |   90.45  | 2021-03-10 23:27:24 | MEDIUM |
+| 98 | [validate-binary-search-tree](doc/001-100/098-validate-binary-search-tree.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/ValidateBinarySearchTree.java) |  100 |   44.59  | 2021-03-10 23:27:24 | MEDIUM |
+
+
+# 101-200
+
+| 序号 | 难题 | 解决方案 | 速度% | 内存% | 时间 | 难度 |
+|:---|:---|:---|:---|:---|:---|:---|
+| 98 | [validate-binary-search-tree](doc/001-100/098-validate-binary-search-tree.md) | [java](https://github.com/houbb/leetcode/blob/master/src/main/java/com/github/houbb/leetcode/medium/ValidateBinarySearchTree.java) |  100 |   44.59  | 2021-03-10 23:27:24 | MEDIUM |
