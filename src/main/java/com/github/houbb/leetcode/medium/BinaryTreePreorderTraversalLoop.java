@@ -30,12 +30,19 @@ public class BinaryTreePreorderTraversalLoop {
 
         while(node != null) {
             list.add(node.val);
+            System.out.println("\n【根节点】添加值：" + node.val +", 列表：" + list);
+
             if (node.right != null) {
                 rights.push(node.right);
+                System.out.println("【右节点-入】node.right="+node.right + " 入栈，stack: " +rights);
             }
+
             node = node.left;
+            System.out.println("【左节点】继续访问 node.left = " + node);
             if (node == null && !rights.isEmpty()) {
                 node = rights.pop();
+
+                System.out.println("【右节点-出】弹出访问右节点。" + node + " 出栈， stack: " + rights);
             }
         }
         return list;

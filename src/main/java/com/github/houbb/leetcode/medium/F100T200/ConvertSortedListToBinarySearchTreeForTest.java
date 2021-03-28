@@ -2,32 +2,32 @@ package com.github.houbb.leetcode.medium.F100T200;
 
 import com.github.houbb.leetcode.ListNode;
 import com.github.houbb.leetcode.component.TreeNode;
+import com.github.houbb.leetcode.medium.*;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
+ * 专门为测试而生
  * @author binbin.hou
  * @since 1.0.0
  */
-public class ConvertSortedListToBinarySearchTree {
+public class ConvertSortedListToBinarySearchTreeForTest {
 
     public static void main(String[] args) {
-        int[] nums = new int[]{1,2,3,4,5,6,7};
-        ListNode head = ListNode.buildHead(nums);
+        ConvertSortedListToBinarySearchTreeForTest tree = new ConvertSortedListToBinarySearchTreeForTest();
 
-        ConvertSortedListToBinarySearchTree tree = new ConvertSortedListToBinarySearchTree();
-        TreeNode treeNode = tree.sortedListToBST(head);
+        List<Integer> list = Arrays.asList(1,2,3,4,5,6,7);
+        TreeNode treeNode = tree.sortedListToBST(list);
 
-        // 遍历
-        BinaryTreeLevelOrderTraversal levelOrderTraversal  = new BinaryTreeLevelOrderTraversal();
-        List<List<Integer>> lists = levelOrderTraversal.levelOrder(treeNode);
-        System.out.println(lists);
+        // 前序递归
+        BinaryTreePostorderTraversalLoopDebug traversal = new BinaryTreePostorderTraversalLoopDebug();
+        List<Integer> results = traversal.postorderTraversal(treeNode);
+        System.out.println(results);
     }
 
-    public TreeNode sortedListToBST(ListNode head) {
-        List<Integer> list = getIntegers(head);
-
+    public TreeNode sortedListToBST(List<Integer> list) {
         if(list.size() <= 0) {
             return null;
         }
@@ -43,7 +43,6 @@ public class ConvertSortedListToBinarySearchTree {
 
         // root 节点
         // 1 2 3 4 5
-//        int rootIndex = start + (end - start) / 2;
         int rootIndex = (start + end)/2;
         int rootVal = list.get(rootIndex);
         TreeNode treeNode = new TreeNode(rootVal);
@@ -56,16 +55,5 @@ public class ConvertSortedListToBinarySearchTree {
 
         return treeNode;
     }
-
-    private List<Integer> getIntegers(ListNode head) {
-        List<Integer> list = new ArrayList<>();
-        while (head != null) {
-            list.add(head.val);
-            head = head.next;
-        }
-        return list;
-    }
-
-
 
 }

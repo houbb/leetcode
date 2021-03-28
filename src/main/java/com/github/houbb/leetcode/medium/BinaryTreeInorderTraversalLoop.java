@@ -29,12 +29,18 @@ public class BinaryTreeInorderTraversalLoop {
             // 寻找到最左边的节点
             while(current !=null){
                 stack.add(current);
+
+                System.out.println("【入栈】当前节点" + current +", STACK: " + stack);
+                System.out.println("【左子树】继续访问 " +current.val +" 左子树: " + current.left);
                 current = current.left;
             }
 
             // pop 处理
             current = stack.pop();
+            System.out.println("【出栈】当前节点: " + current +", STACK: " + stack);
             list.add(current.val);
+            System.out.println("【添加】添加节点" + current.val +", LIST: " + list);
+            System.out.println("【右子树】访问节点" + current.val +" 右子树" + current.right + "\n");
             current = current.right;
         }
 
