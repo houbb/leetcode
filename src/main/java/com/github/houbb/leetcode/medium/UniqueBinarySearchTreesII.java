@@ -1,7 +1,6 @@
 package com.github.houbb.leetcode.medium;
 
 import com.github.houbb.leetcode.component.TreeNode;
-import sun.reflect.generics.tree.Tree;
 
 import java.util.ArrayList;
 import java.util.List;
