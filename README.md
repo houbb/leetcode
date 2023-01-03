@@ -96,4 +96,5 @@ leetcode 算法笔记。
 | 108 | [convert-sorted-array-to-binary-search-tree](doc/101-200/108-convert-sorted-array-to-binary-search-tree.md)                                  | [100 & 64.93](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/submissions/870346879/)               | 2023-01-03 17:32:16 | EASY  |
 | 109 | [convert-sorted-list-to-binary-search-tree](doc/101-200/109-convert-sorted-list-to-binary-search-tree.md)                                    | [100 & 100](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/submissions/468998688/)                  | 2021-03-17 23:19:16 | MEDIUM  |
 | 110 | [balanced-binary-tree](doc/101-200/110-balanced-binary-tree.md)                  | [97.66 & 37.73](https://leetcode.com/problems/balanced-binary-tree/submissions/870360401/)                                   | 2023-01-03 18:14:16 | EASY  |
+| 111 | [minimum-depth-of-binary-tree](doc/101-200/111-minimum-depth-of-binary-tree.md)                  | [100 & 91](https://leetcode.com/problems/minimum-depth-of-binary-tree/submissions/870506324/)                | 2023-01-03 23:14:16 | EASY  |
 
