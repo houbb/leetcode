@@ -9,7 +9,7 @@ import java.util.List;
  * @author binbin.hou
  * @since 1.0.0
  */
-public class T113_PathSumIIBetter {
+public class T113_PathSumIIV2 {
 
     public List<List<Integer>> pathSum(TreeNode root, int targetSum) {
         List<List<Integer>> allPaths = new ArrayList<>();
