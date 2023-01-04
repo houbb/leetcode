@@ -12,7 +12,7 @@ import com.github.houbb.leetcode.component.TreeNode;
  * 3. 如何互换？
  *
  */
-public class T99_RecoverBinarySearchTree {
+public class T099_RecoverBinarySearchTree {
 
     private TreeNode first = null;
     private TreeNode second = null;
