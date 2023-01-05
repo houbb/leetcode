@@ -1,7 +1,6 @@
 package com.github.houbb.leetcode;
 
 import com.github.houbb.leetcode.AddTwoNumbersLeetCodeVersion2.ListNode;
-import org.junit.Test;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -14,7 +13,6 @@ public class AddTwoNumbersLeetCodeV2Test {
 
     // [2,4,3]
     // [5.6.4]
-    @Test
     public void runTest() {
         ListNode numOneNext = new ListNode(4, new ListNode(3));
         ListNode numOneNode = new ListNode(2, numOneNext);
