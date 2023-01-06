@@ -1,10 +1,10 @@
-## 描述
+https://leetcode.com/problems/palindrome-partitioning-ii/
 
-Given a string s, partition s such that every  substring of the partition is a  palindrome.
+Given a string s, partition s such that every substring of the partition is a  palindrome.
 
 Return the minimum cuts needed for a palindrome partitioning of s.
- 
-### EX
+
+## Ex
 
 Example 1:
 
@@ -23,13 +23,15 @@ Output: 0
 
 Example 3:
 
+
 ```
 Input: s = "ab"
 Output: 1
 ```
 
-### Constraints:
+## Constraints:
 
-1 <= s.length <= 2000
+    1 <= s.length <= 2000
+    s consists of lowercase English letters only.
 
-s consists of lowercase English letters only.
+

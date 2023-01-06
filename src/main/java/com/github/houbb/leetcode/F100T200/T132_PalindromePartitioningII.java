@@ -47,10 +47,10 @@ public class T132_PalindromePartitioningII {
                            String s, int startIndex) {
 
         // 剪枝
+        // 但是性能依然不够。 会在 25/36 超时
         if(tempList.size() > minCut) {
             return;
         }
-
 
         // 终止的条件
         // 元素的長度等於 s
@@ -99,6 +99,14 @@ public class T132_PalindromePartitioningII {
         }
 
         return true;
+    }
+
+    public static void main(String[] args) {
+        T132_PalindromePartitioningII pp = new T132_PalindromePartitioningII();
+
+        System.out.println(pp.minCut("aab"));
+//        System.out.println(pp.partition("aab"));
+//        System.out.println(pp.partition("efe"));
     }
 
 }
