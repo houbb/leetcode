@@ -7,7 +7,7 @@ import java.util.Map;
  * @author binbin.hou
  * @since 1.0.0
  */
-public class CopyListWithRandomPointer {
+public class T138_CopyListWithRandomPointer {
 
     private class Node {
         int val;
