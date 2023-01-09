@@ -2,10 +2,6 @@ package com.github.houbb.leetcode.F100T200;
 
 import com.github.houbb.leetcode.ListNode;
 
-/**
- * @author d
- * @since 1.0.0
- */
 public class T141_LinkedListCycle {
 
     /**
@@ -19,23 +15,25 @@ public class T141_LinkedListCycle {
      *
      * 如果二者又重复了，说明存在环。
      *
-     * @param head 头
-     * @return 是否
+     * @param head
+     * @return
      */
     public boolean hasCycle(ListNode head) {
-        ListNode fast = head;
-        ListNode slow = head;
+        ListNode fastPointer = head;
+        ListNode slowPointer = head;
 
-        while (fast != null
-            && fast.next != null) {
-            fast = fast.next.next;
-            slow = slow.next;
+        while (fastPointer != null
+            && fastPointer.next != null) {
+            fastPointer = fastPointer.next.next;
+            slowPointer = slowPointer.next;
 
-            if(fast == slow) {
+            // 如果相同
+            if(fastPointer == slowPointer) {
                 return true;
             }
         }
 
+        // 循环结果
         return false;
     }
 
