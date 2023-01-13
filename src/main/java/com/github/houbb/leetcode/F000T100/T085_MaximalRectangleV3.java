@@ -2,8 +2,6 @@ package com.github.houbb.leetcode.F000T100;
 
 import java.util.Stack;
 
-import static jdk.internal.org.jline.utils.Colors.h;
-
 public class T085_MaximalRectangleV3 {
 
     public int maximalRectangle(char[][] matrix) {
