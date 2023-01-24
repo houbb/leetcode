@@ -27,10 +27,6 @@ public class T165_CompareVersionNumbers {
         }
 
 
-        if(nums1.length == nums2.length) {
-            return 0;
-        }
-
         // 大小一样，比较长度
         if(nums1.length > nums2.length) {
             int sum = calcSum(minLen, nums1);
