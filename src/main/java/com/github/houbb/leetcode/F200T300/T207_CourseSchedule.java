@@ -80,7 +80,7 @@ public class T207_CourseSchedule {
         }
 
         // 当入度为0的列表存在时，循环处理
-        while (inZeroList.size() > 0) {
+        while (!inZeroList.isEmpty()) {
             // 随意取出一个入度为0的元素，放在结果列表
             int zero = inZeroList.remove(0);
             resultList.add(zero);
