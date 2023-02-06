@@ -1,10 +1,10 @@
-package com.github.houbb.leetcode.medium;
+package com.github.houbb.leetcode.F000T100;
 
 /**
  * @author binbin.hou
  * @since 1.0.0
  */
-public class WordSearch {
+public class T079_WordSearch {
 
     public boolean exist(char[][] board, String word) {
         System.out.println("word: " +word);
