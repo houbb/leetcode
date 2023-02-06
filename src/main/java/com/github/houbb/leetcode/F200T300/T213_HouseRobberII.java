@@ -1,25 +1,40 @@
 package com.github.houbb.leetcode.F200T300;
 
-import java.util.Arrays;
-
 public class T213_HouseRobberII {
 
 
     public int rob(int[] nums) {
-        // TODO:///
-
         //rob0，从 2...-1 开始
-        int sum1 = nums[0] + robNoCircle(Arrays.copyOfRange(nums, 2, nums.length-2));
+        int sum1 = nums[0] + robNoCircle(getSubArray(nums, 2, nums.length-2));
 
         //not rob0
-        int sum2 = robNoCircle(Arrays.copyOfRange(nums, 1, nums.length-1));
+        int sum2 = robNoCircle(getSubArray(nums, 1, nums.length-1));
 
         return Math.max(sum1, sum2);
     }
 
+    private int[] getSubArray(int[] nums,
+                              int startIndex,
+                              int endIndex) {
+        if(endIndex < startIndex) {
+            return new int[0];
+        }
+
+        int len = endIndex - startIndex + 1;
+        int[] results = new int[len];
+        int size = 0;
+        for(int i = startIndex; i <= endIndex; i++) {
+            results[size++] = nums[i];
+        }
+        return results;
+    }
 
     // 无环时
     public int robNoCircle(int[] nums) {
+        if(nums.length == 0) {
+            return 0;
+        }
+
         int[] dp = new int[nums.length + 1];
         dp[0] = 0;
         dp[1] = nums[0];
