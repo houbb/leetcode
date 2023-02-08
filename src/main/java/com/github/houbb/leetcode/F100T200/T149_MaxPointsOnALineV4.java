@@ -3,7 +3,7 @@ package com.github.houbb.leetcode.F100T200;
 import java.util.HashMap;
 import java.util.Map;
 
-public class T148_MaxPointsOnALineV4 {
+public class T149_MaxPointsOnALineV4 {
 
     /*
      *  A line is determined by two factors,say y=ax+b

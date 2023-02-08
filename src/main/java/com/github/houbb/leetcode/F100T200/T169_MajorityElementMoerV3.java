@@ -1,13 +1,10 @@
 package com.github.houbb.leetcode.F100T200;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * @author binbin.hou
  * @since 1.0.0
  */
-public class MajorityElementMoerVote {
+public class T169_MajorityElementMoerV3 {
 
     /**
      *

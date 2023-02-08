@@ -7,7 +7,7 @@ import java.util.Map;
  * @author binbin.hou
  * @since 1.0.0
  */
-public class MajorityElement {
+public class T169_MajorityElementV2 {
 
     /**
      * Runtime: 9 ms, faster than 31.63% of Java online submissions for Majority Element.
@@ -17,24 +17,19 @@ public class MajorityElement {
      * @return
      */
     public int majorityElement(int[] nums) {
-        int result = nums[0];
-        int maxCount = 1;
-
-        Map<Integer, Integer> countMap = new HashMap<>(nums.length);
-        //O(N)
+        int limit = nums.length >> 1;
+        Map<Integer, Integer> countMap = new HashMap<>(limit);
         for(int n : nums) {
             int count = countMap.getOrDefault(n,0)+1;
-            if(count >= maxCount) {
-                result = n;
-                maxCount = count;
+            if(count > limit) {
+                return n;
             }
 
-            // 统计次数
             countMap.put(n, count);
         }
 
-        // 找到超过一半的元素
-        return result;
+        // 异常
+        return -1;
     }
 
 

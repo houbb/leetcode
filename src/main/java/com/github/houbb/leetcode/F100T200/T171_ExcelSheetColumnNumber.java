@@ -1,6 +1,6 @@
 package com.github.houbb.leetcode.F100T200;
 
-public class T169_ExcelSheetColumnNumber {
+public class T171_ExcelSheetColumnNumber {
 
     public int titleToNumber(String columnTitle) {
         // 从1开始

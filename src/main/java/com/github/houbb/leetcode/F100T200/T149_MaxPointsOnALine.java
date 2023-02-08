@@ -1,16 +1,14 @@
 package com.github.houbb.leetcode.F100T200;
 
-import com.github.houbb.leetcode.util.MultiArrays;
-
-import java.math.BigDecimal;
-import java.math.RoundingMode;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-@Deprecated
-public class T148_MaxPointsOnALine {
+/**
+ * 有问题的？
+ */
+public class T149_MaxPointsOnALine {
 
     public static void main(String[] args) {
         //[0,0],[4,5],[7,8],[8,9],[5,6],[3,4],[1,1]
@@ -23,7 +21,7 @@ public class T148_MaxPointsOnALine {
         points[5] = new int[]{3,4};
         points[6] = new int[]{1,1};
 
-        new T148_MaxPointsOnALine().maxPoints(points);
+        new T149_MaxPointsOnALine().maxPoints(points);
     }
 
     /**

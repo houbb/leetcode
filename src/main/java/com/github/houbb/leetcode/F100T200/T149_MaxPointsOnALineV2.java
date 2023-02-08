@@ -1,10 +1,9 @@
 package com.github.houbb.leetcode.F100T200;
 
 import java.math.BigDecimal;
-import java.math.RoundingMode;
 import java.util.*;
 
-public class T148_MaxPointsOnALineV2 {
+public class T149_MaxPointsOnALineV2 {
 
     public static void main(String[] args) {
         //[1,1],[3,2],[5,3],[4,1],[2,3],[1,4]
@@ -21,7 +20,7 @@ public class T148_MaxPointsOnALineV2 {
         map.put(BigDecimal.valueOf(-1), Arrays.asList(1,3,4,5));
 
 //        new T148_MaxPointsOnALineV2().getMaxPoint(map.entrySet().iterator().next(), points);
-        System.out.println(new T148_MaxPointsOnALineV2().maxPoints(points));;
+        System.out.println(new T149_MaxPointsOnALineV2().maxPoints(points));;
     }
 
     /**
