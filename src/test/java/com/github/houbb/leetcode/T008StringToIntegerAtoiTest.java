@@ -7,7 +7,7 @@ import org.junit.Test;
  * @author binbin.hou
  * @since 1.0.0
  */
-public class StringToIntegerAtoiTest {
+public class T008StringToIntegerAtoiTest {
 
     @Test
     public void basicTest() {

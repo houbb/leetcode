@@ -1,4 +1,6 @@
-package com.github.houbb.leetcode;
+package com.github.houbb.leetcode.F000T100;
+
+import com.github.houbb.leetcode.ListNode;
 
 import java.util.Collections;
 import java.util.LinkedList;
@@ -10,7 +12,7 @@ import java.util.List;
  * @since 1.0.0
  * @date 2020-6-17 11:26:40
  */
-public class MergeTwoSortedLists {
+public class T021_MergeTwoSortedLists {
 
     /**
      * 合并2个有序的数组
