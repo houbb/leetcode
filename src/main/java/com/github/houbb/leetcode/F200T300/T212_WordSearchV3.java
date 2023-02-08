@@ -59,7 +59,9 @@ public class T212_WordSearchV3 {
 
     public void dfs(char[][] board, int i, int j, TrieNode p, List<String> res) {
         char c = board[i][j];
-        if (c == '#' || p.next[c - 'a'] == null) return;
+        if (c == '#' || p.next[c - 'a'] == null) {
+            return;
+        }
 
         // 通过直接处理，而不是方法。但是这样不利于类的封装。
         p = p.next[c - 'a'];
