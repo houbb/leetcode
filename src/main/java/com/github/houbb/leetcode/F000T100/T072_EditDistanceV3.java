@@ -1,6 +1,6 @@
 package com.github.houbb.leetcode.F000T100;
 
-public class T071_EditDistanceV3 {
+public class T072_EditDistanceV3 {
 
     /**
      * 引入 mem[][] 提升性能

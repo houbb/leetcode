@@ -1,6 +1,6 @@
 package com.github.houbb.leetcode.F000T100;
 
-public class T071_EditDistance {
+public class T072_EditDistance {
 
     /**
      * 这是一个回溯题目吗？

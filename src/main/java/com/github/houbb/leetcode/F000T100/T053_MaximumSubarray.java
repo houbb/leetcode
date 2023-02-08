@@ -4,7 +4,7 @@ package com.github.houbb.leetcode.F000T100;
  * @author d
  * @since 1.0.0
  */
-public class T0531_MaximumSubarray {
+public class T053_MaximumSubarray {
 
     /**
      * dp

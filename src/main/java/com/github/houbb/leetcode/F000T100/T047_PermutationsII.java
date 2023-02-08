@@ -8,7 +8,7 @@ import java.util.List;
  * @author binbin.hou
  * @since 1.0.0
  */
-public class T046_PermutationsII {
+public class T047_PermutationsII {
 
     /**
      * 解题思路：回溯算法
@@ -73,7 +73,7 @@ public class T046_PermutationsII {
 
 
     public static void main(String[] args) {
-        T046_PermutationsII permutations = new T046_PermutationsII();
+        T047_PermutationsII permutations = new T047_PermutationsII();
 
         int[] nums = new int[]{1,2,3};
         System.out.println(permutations.permuteUnique(nums));

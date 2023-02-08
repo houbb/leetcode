@@ -1,4 +1,4 @@
-package com.github.houbb.leetcode.medium;
+package com.github.houbb.leetcode.F000T100;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +7,7 @@ import java.util.List;
  * @author binbin.hou
  * @since 1.0.0
  */
-public class RotateList {
+public class T061_RotateList {
 
     /**
      * 右旋
