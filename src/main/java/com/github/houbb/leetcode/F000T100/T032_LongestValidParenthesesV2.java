@@ -1,5 +1,7 @@
 package com.github.houbb.leetcode.F000T100;
 
+import java.util.Deque;
+import java.util.LinkedList;
 import java.util.Stack;
 
 /**
@@ -10,7 +12,7 @@ public class T032_LongestValidParenthesesV2 {
 
     public static void main(String[] args) {
         T032_LongestValidParenthesesV2 longestValidParentheses = new T032_LongestValidParenthesesV2();
-        System.out.println(longestValidParentheses.longestValidParentheses(")(())"));
+        System.out.println(longestValidParentheses.longestValidParentheses("())((())"));
     }
 
     /**
@@ -20,21 +22,25 @@ public class T032_LongestValidParenthesesV2 {
      * @return 结果
      */
     public int longestValidParentheses(String s) {
-        Stack<Integer> stack = new Stack<>();
-        int result = 0;
+        int maxans = 0;
+        Deque<Integer> stack = new LinkedList<>();
         stack.push(-1);
-
-        for(int i = 0; i < s.length(); i++) {
-            // 当前为 )，且 stack 中上一个刚好为 (
-            if (s.charAt(i) == ')' && stack.size() > 1 && s.charAt(stack.peek()) == '(') {
-                stack.pop();
-                result = Math.max(result, i - stack.peek());
-            } else {
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) == '(') {
                 stack.push(i);
-            }
-        }
+            } else {
+                stack.pop();
 
-        return result;
+                if (stack.isEmpty()) {
+                    stack.push(i);
+                } else {
+                    maxans = Math.max(maxans, i - stack.peek());
+                }
+            }
+
+            System.out.println("i="+i + ", stack=" +stack +", maxans=" + maxans);
+        }
+        return maxans;
     }
 
 }
