@@ -4,7 +4,7 @@ package com.github.houbb.leetcode.F000T100;
  * @author binbin.hou
  * @since 1.0.0
  */
-public class T028_ImplementStrStr {
+public class T028_FindTheIndexOfTheFirstOccurrenceInAString {
 
     /**
      * 【效果】
@@ -59,7 +59,7 @@ public class T028_ImplementStrStr {
     }
 
     public static void main(String[] args) {
-        T028_ImplementStrStr strStr = new T028_ImplementStrStr();
+        T028_FindTheIndexOfTheFirstOccurrenceInAString strStr = new T028_FindTheIndexOfTheFirstOccurrenceInAString();
         System.out.println(strStr.strStr("1234566", "45"));
         System.out.println(strStr.strStr("a", "a"));
         System.out.println("1234566".indexOf("45"));
