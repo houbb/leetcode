@@ -57,28 +57,7 @@ public class T046_Permutations {
         }
     }
 
-    /**
-     * 计算阶乘
-     *
-     * 目的：避免结果扩容
-     *
-     * 题目中只有 1-6，可以使用查表法
-     * @param num 数字
-     * @return 结果
-     */
-    private static int getFactorial(int num) {
-        int result = 1;
-
-        for(int i = 2; i <= num; i++) {
-            result *= i;
-        }
-
-        return result;
-    }
-
     public static void main(String[] args) {
-        System.out.println(getFactorial(3));
-
         T046_Permutations permutations = new T046_Permutations();
 
         int[] nums = new int[]{1,2,3};
