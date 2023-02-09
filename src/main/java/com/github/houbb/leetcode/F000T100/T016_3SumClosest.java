@@ -79,8 +79,5 @@ public class T016_3SumClosest {
 
         return target+diff;
     }
-//
-//    private int abs(int num) {
-//        return num < 0 ? -num : num;
-//    }
+
 }
