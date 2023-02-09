@@ -17,33 +17,25 @@ package com.github.houbb.leetcode.F000T100;
  * @since 1.0.0
  * @date 2020-6-11 14:57:39
  */
-public class T011_ContainerWithMostWater {
+public class T011_ContainerWithMostWaterV2 {
 
     /**
-     * 计算最大面积
+     * 优化思路
      *
-     * 优化思路：重复计算的跳过。
-     *
-     * Runtime: 843 ms, faster than 5.04% of Java online submissions for Container With Most Water.
-     * Memory Usage: 39.4 MB, less than 94.66% of Java online submissions for Container With Most Water.
-     *
-     * @param height 高度
+     * 1. 避免重复计算
+     * 2. j 永远大于 i，跳过计算
+     * @param height 高度数组
      * @return 结果
-     * @since v1
+     * @since v2
      */
-    public int maxArea(int[] height) {
+    public int maxAreaV2(int[] height) {
         int maxResult = -1;
         for(int i = 0; i < height.length; i++) {
-            for(int j = 0; j < height.length; j++) {
-                // 跳过自身相等的元素
-                if(i == j) {
-                    continue;
-                }
-
+            for(int j = i+1; j < height.length; j++) {
                 int hi = height[i];
                 int hj = height[j];
                 int min = Math.min(hi, hj);
-                int x = Math.abs(j - i);
+                int x = j-i;
                 int area = x * min;
 
                 if(area > maxResult) {

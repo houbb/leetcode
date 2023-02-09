@@ -13,6 +13,12 @@ package com.github.houbb.leetcode.F000T100;
  */
 public class T014_LongestCommonPrefix {
 
+    /**
+     * 双 100%
+     *
+     * @param strs
+     * @return
+     */
     public String longestCommonPrefix(String[] strs) {
         if(null == strs || strs.length <= 0) {
             return "";
