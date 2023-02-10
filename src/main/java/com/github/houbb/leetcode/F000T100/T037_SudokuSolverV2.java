@@ -46,24 +46,36 @@ public class T037_SudokuSolverV2 {
     }
 
     boolean backtracking(int row, int col) {
+        // 列到达末尾，则换下一行进行处理。
         if(col == board[0].length) {
             col = 0;
             row++;
+
+            // 最后结束，终止条件
             if(row == board.length) {
                 return true;
             }
         }
+
+        // 待填入的位置
         if(board[row][col] == '.') {
+            // 尝试 9 种数字
             for(int i = 1; i <= 9; i++) {
                 boolean canUse = !(rowUsed[row][i] || colUsed[col][i] || boxUsed[row/3][col/3][i]);
+
+                // 在每行、列、小9宫格可以填写的数字。
                 if(canUse) {
+                    // 使用
                     board[row][col] = (char)(i + '0');
                     rowUsed[row][i] = true;
                     colUsed[col][i] = true;
                     boxUsed[row/3][col/3][i] = true;
+                    // 回溯
                     if(backtracking(row, col + 1)) {
                         return true;
                     }
+
+                    // 清空
                     board[row][col] = '.';
                     rowUsed[row][i] = false;
                     colUsed[col][i] = false;
@@ -71,6 +83,7 @@ public class T037_SudokuSolverV2 {
                 }
             }
         } else {
+            // 继续下一列
             return backtracking(row, col + 1);
         }
         return false;
