@@ -4,10 +4,10 @@ package com.github.houbb.leetcode.F000T100;
  * @author d
  * @since 1.0.0
  */
-public class T042_TrappingRainWaterV2 {
+public class T042_TrappingRainWaterV3 {
 
     public static void main(String[] args) {
-        T042_TrappingRainWaterV2 v1 = new T042_TrappingRainWaterV2();
+        T042_TrappingRainWaterV3 v1 = new T042_TrappingRainWaterV3();
 
         int trap2 = v1.trap(new int[]{4,2,0,3,2,5});
         System.out.println(trap2);
@@ -28,12 +28,6 @@ public class T042_TrappingRainWaterV2 {
     public int trap(int[] height) {
         int n = height.length;
 
-        // 初始化好对应的高度信息。
-        int[] dpLeft = new int[n];
-        dpLeft[0] = height[0];
-        for(int i = 1; i < n-1; i++) {
-            dpLeft[i] = Math.max(dpLeft[i-1], height[i]);
-        }
         int[] dpRight = new int[n];
         dpRight[n-1] = height[n-1];
         for(int i = n-2; i >= 1; i--) {
@@ -42,8 +36,9 @@ public class T042_TrappingRainWaterV2 {
 
         // 第一个，最后一列不用看。
         int sum = 0;
+        int hl = height[0];
         for(int i = 1; i < n-1; i++) {
-            int hl = dpLeft[i];
+            hl = Math.max(hl, height[i]);
             int hr = dpRight[i];
 
             int h = Math.min(hl, hr);
