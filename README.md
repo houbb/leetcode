@@ -18,6 +18,53 @@ leetcode 算法笔记。
 
 [005-一文讲透 KSUM 问题](https://mp.weixin.qq.com/s?__biz=MzUyNjE3OTAyMw==&mid=2247484304&idx=1&sn=fc4c6344ef31bfe1567b9234acec318f&chksm=fa138c30cd640526af061cc1c2e2ded208423580e50573f30aaf762c8e3cef008bfba47e9830&scene=178&cur_album_id=1406620287227281409#rd)
 
+# 基础算法
+
+## 查找
+
+[java 如何实现 binary search 二分查找法？](https://houbb.github.io/2020/06/08/algorithm-12-binary-search)
+
+## 排序
+
+[sort-00-排序算法汇总](https://houbb.github.io/2016/07/14/sort-00-overview-sort)
+
+[sort-01-bubble sort 冒泡排序算法详解](https://houbb.github.io/2016/07/14/sort-01-bubble-sort)
+
+[sort-02-QuickSort 快速排序到底快在哪里？](https://houbb.github.io/2016/07/14/sort-02-quick-sort)
+
+[sort-03-SelectSort 选择排序算法详解](https://houbb.github.io/2016/07/14/sort-03-select-sort)
+
+[sort-04-heap sort 堆排序算法详解](https://houbb.github.io/2016/07/14/sort-03-select-sort)
+
+[sort-05-insert sort 插入排序算法详解](https://houbb.github.io/2016/07/14/sort-05-insert-sort)
+
+[sort-06-shell sort 希尔排序算法详解](https://houbb.github.io/2016/07/14/sort-06-shell-sort)
+
+[sort-07-merge sort 归并排序](https://houbb.github.io/2016/07/14/sort-07-merge-sort)
+
+[sort-08-counting sort 计数排序](https://houbb.github.io/2016/07/14/sort-08-counting-sort)
+
+[sort-08-bucket sort 桶排序](https://houbb.github.io/2016/07/14/sort-09-bucket-sort)
+
+[timesort](https://houbb.github.io/2018/07/26/timesort)
+
+[java big file sort 超大文件如何实现排序？外归并排序（External merge sort）](https://houbb.github.io/2022/08/12/java-diff-sort-big-file)
+
+## 五大算法
+
+[五大基本算法概览](https://houbb.github.io/2020/01/23/data-struct-learn-07-base)
+
+[五大基本算法之回溯算法 backtracking](https://houbb.github.io/2020/01/23/data-struct-learn-07-base-backtracking)
+
+[五大基本算法之分治算法 Divided](https://houbb.github.io/2020/01/23/data-struct-learn-07-base-divided)
+
+[五大基本算法之动态规划算法 DP dynamic programming](https://houbb.github.io/2020/01/23/data-struct-learn-07-base-dp)
+
+[五大基本算法之穷举算法](https://houbb.github.io/2020/01/23/data-struct-learn-07-base-enum)
+
+[五大基本算法之贪心算法 Greedy](https://houbb.github.io/2020/01/23/data-struct-learn-07-base-greedy)
+
+
 # 算法实现
 
 ## 000-100
