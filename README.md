@@ -8,15 +8,15 @@ leetcode 算法笔记。
 
 # 推荐阅读
 
-[000-从零开始的数据结构与算法-00-概览 算法专题汇总](https://houbb.github.io/2020/06/08/algorithm-000-index)
+[000-从零开始的数据结构与算法](https://houbb.github.io/2020/06/08/algorithm-000-index)
 
-[001-一文讲透 KSUM 问题](https://mp.weixin.qq.com/s?__biz=MzUyNjE3OTAyMw==&mid=2247484304&idx=1&sn=fc4c6344ef31bfe1567b9234acec318f&chksm=fa138c30cd640526af061cc1c2e2ded208423580e50573f30aaf762c8e3cef008bfba47e9830&scene=178&cur_album_id=1406620287227281409#rd)
+[001-01-ksum 求符合条件的 k 个数 1. Two Sum/15. 3Sum/18. 4Sum/](https://houbb.github.io/2020/06/08/algorithm-001-leetcode-01-ksum)
 
 [002-两数相加 add two numbers](https://houbb.github.io/2020/06/08/algorithm-002-leetcode-02-add-two-numbers)
 
 [003-无重复字符的最长子串 Longest Substring Without Repeating Characters](https://houbb.github.io/2020/06/08/algorithm-003-leetcode-03-longest-substring-without-repeating-characters)
 
-[004-寻找两个正序数组的中位数](https://mp.weixin.qq.com/s?__biz=MzUyNjE3OTAyMw==&mid=2247483967&idx=2&sn=9febd6fe7bcbdf78cbd613e21f3fa45f&chksm=fa138d9fcd6404892dce8ad76e81be2c0e9c2841c64315accb9cce168faf3cbd24e24a265d9b&scene=178&cur_album_id=1406620287227281409#rd)
+[004-寻找两个正序数组的中位数](https://houbb.github.io/2020/06/08/algorithm-004-leetcode-04-median-of-two-sorted-arrays)
 
 [005-最长回文子串 Longest Palindromic Substring](https://houbb.github.io/2020/06/08/algorithm-005-leetcode-05-longest-palindromic-substring)
 
@@ -26,13 +26,11 @@ leetcode 算法笔记。
 
 [008-Regular Expression Matching 正则表达式匹配 + 42.Wildcard Matching 通配符匹配](https://houbb.github.io/2020/06/08/algorithm-008-leetcode-10-regex-match)
 
-[008-如何实现 regex 正则表达式引擎](https://mp.weixin.qq.com/s?__biz=MzUyNjE3OTAyMw==&mid=2247484055&idx=2&sn=2a13312aa80e080bc044aea914683c17&chksm=fa138d37cd640421406e102e80f05bd501da6b4e7867b104266fb762574a76cccf3aa9274b26&scene=178&cur_album_id=1406620287227281409#rd)
-
 [009-盛最多水的容器 Container With Most Water 双指针法 + 42. 接雨水 Trapping Rain Water + 407. Trapping Rain Water II](https://houbb.github.io/2020/06/08/algorithm-009-leetcode-11-container-with-most-water)
 
 [010-删除链表的倒数第 N 个结点 Remove Nth Node From End of List 双指针](https://houbb.github.io/2020/06/08/algorithm-010-leetcode-19-remove-nth-node-from-end-of-list)
 
-[011-合并 k 个有序链表的 5 种解法](https://mp.weixin.qq.com/s?__biz=MzUyNjE3OTAyMw==&mid=2247484039&idx=2&sn=0840e1164946c72d221e811f4940d2d6&chksm=fa138d27cd640431105f5e4ad2928f3ad7907e19c1986413c239cf804c8461e3d632f9b1c4b0&scene=178&cur_album_id=1406620287227281409#rd)
+[011-21.合并多个有序的链表 merge k sorted lists](https://houbb.github.io/2020/06/08/algorithm-011-leetcode-21-merge-k-sorted-lists)
 
 [012-括号生成 generate-parentheses + 20. 有效的括号 valid parentheses + 32. 最长有效括号 Longest Valid Parentheses](https://houbb.github.io/2020/06/08/algorithm-012-leetcode-22-generate-parentheses)
 
