@@ -46,9 +46,9 @@ leetcode 算法笔记。
 
 [sort-08-bucket sort 桶排序](https://houbb.github.io/2016/07/14/sort-09-bucket-sort)
 
-[timesort](https://houbb.github.io/2018/07/26/timesort)
+[sort-09-timesort 时间排序](https://houbb.github.io/2018/07/26/timesort)
 
-[java big file sort 超大文件如何实现排序？外归并排序（External merge sort）](https://houbb.github.io/2022/08/12/java-diff-sort-big-file)
+[sort-10-java big file sort 超大文件如何实现排序？外归并排序（External merge sort）](https://houbb.github.io/2022/08/12/java-diff-sort-big-file)
 
 ## 五大算法
 
