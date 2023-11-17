@@ -40,7 +40,6 @@ public class T217_ContainsDuplicateV3InsertSort {
             nums[j+1] = current;
         }
 
-
         return false;
     }
 
