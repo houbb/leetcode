@@ -24,10 +24,10 @@ public class T3195_minContainsOneArea {
         int m = grid.length;
         int n = grid[0].length;
         // 最low的解法，遍历找到最小的 x,y 和最大的 x,y
-        int xMin = m, yMin = n;
+        int xMin = Integer.MAX_VALUE, yMin = Integer.MAX_VALUE;
         int xMax = 0, yMax = 0;
-        for (int i = 0; i < m; ++i) {
-            for (int j = 0; j < n; ++j) {
+        for (int i = 0; i < grid.length; ++i) {
+            for (int j = 0; j < grid[i].length; ++j) {
                 // 如果是1
                 if (grid[i][j] == 1) {
                     xMin = Math.min(xMin, i);
