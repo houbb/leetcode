@@ -1,6 +1,7 @@
 package com.github.houbb.leetcode.F1000T1100;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 public class T2548_maxPriceBag_V2 {
 
@@ -8,6 +9,7 @@ public class T2548_maxPriceBag_V2 {
     public double fillBackpack(int[][] items, int capacity) {
         // 按单位重量的价格从高到低排序
         Arrays.sort(items, (a, b) -> Double.compare((double) b[0] / b[1], (double) a[0] / a[1]));
+//        Arrays.sort(items, (o1, o2) -> (int) ((double)o2[0]/o2[1] - (double) o1[0]/o1[1]));
         double maxPrice = 0.0;
         int remainingCapacity = capacity;
 
