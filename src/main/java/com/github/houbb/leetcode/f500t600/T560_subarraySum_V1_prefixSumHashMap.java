@@ -6,6 +6,15 @@ import java.util.Map;
 public class T560_subarraySum_V1_prefixSumHashMap {
 
 
+    public static void main(String[] args) {
+        T560_subarraySum_V1_prefixSumHashMap hashMap = new T560_subarraySum_V1_prefixSumHashMap();
+
+        int[] nums = new int[]{0};
+        int k = 0;
+        System.out.println(hashMap.subarraySum(nums, k));
+    }
+
+
     public int subarraySum(int[] nums, int k) {
         int n = nums.length;
 
