@@ -29,4 +29,8 @@ public class BinarySearch_V1_T704 {
         return -1;
     }
 
+    public static void main(String[] args) {
+        System.out.println("xx");
+    }
+
 }
