@@ -1,7 +1,7 @@
 package com.github.houbb.leetcode.topics.slidlingWindows;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class T3_LongestSubstringWithoutRepeatingCharacters_V2_SlidingWindows {
 
@@ -12,27 +12,33 @@ public class T3_LongestSubstringWithoutRepeatingCharacters_V2_SlidingWindows {
     }
 
     public static int lengthOfLongestSubstring(String s) {
-        int max = 0;
-
         char[] chars = s.toCharArray();
-        Set<Character> set = new HashSet<>();
+        Queue<Character> queue = new LinkedList<>();
 
-        for(int i = 0; i < chars.length; i++) {
+        int max = 0;
+        for (int i = 0; i < chars.length; i++) {
             char c = chars[i];
 
             // 是否满足条件
-            if(!set.contains(c)) {
+            if (!queue.contains(c)) {
+                queue.add(c);
                 continue;
             }
 
-            // 入
-            set.add(chars[i]);
+            // 已经有重复的数据
+            max = Math.max(max, queue.size());
 
-            //出队列
-            set.remove(c);
-
+            //出队列，需要把和当前字符重复的和之前的字符全部异常
+            while (!queue.isEmpty() && queue.peek() != c) {
+                queue.poll();
+            }
+            queue.poll();
+            queue.add(c);
         }
+
+        // 避免全部没重复的场景
+        max = Math.max(max, queue.size());
+
         return max;
     }
-
 }
