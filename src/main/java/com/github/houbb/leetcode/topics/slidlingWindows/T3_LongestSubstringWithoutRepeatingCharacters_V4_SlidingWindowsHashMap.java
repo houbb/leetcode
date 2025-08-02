@@ -22,7 +22,7 @@ public class T3_LongestSubstringWithoutRepeatingCharacters_V4_SlidingWindowsHash
             // 存在
             if(pos != null) {
                 // 最大值
-                start = Math.max(start, pos);
+                start = Math.max(start, pos+1);
             }
 
             max = Math.max(max, i-start+1);
